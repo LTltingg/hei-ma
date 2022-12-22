@@ -2,7 +2,6 @@
   <div id="app">
     <!-- 路由的出口 -->
     <router-view/>
-    <h1>黑马头条</h1>
   </div>
 </template>
 
@@ -12,4 +11,9 @@ export default {
 }
 </script>
 <style lang="less">
+.box{
+  background-color: pink;
+  width: 300px;
+  height: 400px;
+}
 </style>
